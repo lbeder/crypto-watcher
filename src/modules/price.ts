@@ -64,7 +64,6 @@ export class Price extends Base {
   }
 
   private getPrice(addresses: string[]) {
-    // eslint-disable-next-line camelcase
     const options = {
       id: "ethereum",
       // eslint-disable-next-line camelcase

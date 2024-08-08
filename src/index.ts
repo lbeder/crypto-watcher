@@ -99,6 +99,7 @@ const main = async () => {
           },
           "aggregate-assets": {
             description:
+              // eslint-disable-next-line max-len
               "Aggregate custom-priced assets in totals (e.g., if an asset has a custom price of 3 ETH per unit, then instead of showing it separately, we will aggregate its amount with the total ETH amount)",
             alias: "a",
             type: "boolean",
